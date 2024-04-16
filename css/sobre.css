@@ -35,3 +35,26 @@
     font-weight: 500;
 }
 
+#pfp{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    border-radius: 40px;
+    border: 2px var(--destaques);
+    border-style: double;
+}
+
+#sobre_redes{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.redes img{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+
+
+}
