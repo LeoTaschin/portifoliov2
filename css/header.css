@@ -1,0 +1,45 @@
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+#logo{
+    width: 6.25rem;
+    height: 6.25rem;
+    padding-left: 1.25rem;
+    padding-top: 0.25rem;
+}
+
+.header_nav ul li{
+    list-style: none;
+    display: inline-flex;
+
+}
+
+.header_nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.headerbtn{
+    display: flex;
+    width: 6.5rem;
+    height: 1.8rem;
+    margin: 0.125rem;
+    background-color: transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--destaques);
+    gap: 5px;
+
+}
+
+.headerbtn strong{
+    color: #fff;
+    font-weight: 400;
+}
+

@@ -1,0 +1,37 @@
+
+@import url(./main.css);
+
+
+
+.sobre{
+    padding-left: 12rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    height: 400px;
+}
+
+.sobre h1{
+    font-size: 32px;
+    color: var(--destaques);
+    padding-bottom: 1rem;
+}
+.sobre h2{
+    font-size: 60px;
+    color: var(--branco);
+    font-weight: 500;
+}
+
+.sobre h3{
+    font-size: 48px;
+    color: var(--cinza);
+}
+
+.sobre h4{
+    font-size: 28px;
+    color: var(--cinza-claro);
+    padding-top: 30px;
+    font-weight: 500;
+}
+
